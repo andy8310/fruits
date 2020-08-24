@@ -1,0 +1,82 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 產生train檔(資料夾裡只能有image檔)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['apple  (1).jpg', 'apple  (10).jpg', 'apple  (11).jpg', 'apple  (2).jpg', 'apple  (3).jpg', 'apple  (4).jpg', 'apple  (5).jpg', 'apple  (6).jpg', 'apple  (7).jpg', 'apple  (8).jpg', 'apple  (9).jpg', 'banana (1).jpg', 'banana (2).jpg', 'banana (3).jpg', 'banana (4).jpg', 'banana (5).jpg', 'banana (6).jpg', 'banana (7).jpg', 'orange (1).jpg', 'orange (2).jpg', 'orange (3).jpg', 'orange (4).jpg', 'orange (5).jpg']\n",
+      "23\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "path_name = 'D:/fruit/splite_data/image/'\n",
+    "\n",
+    "img_list_3=[]\n",
+    "all_list_name = os.listdir(path_name)\n",
+    "for x in range(len(all_list_name)):\n",
+    "    img_list_3.append(all_list_name[x])\n",
+    "print(img_list_3)\n",
+    "print(len(img_list_3))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "D:\\fruit\\splite_data\\image\\apple  (1).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (10).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (11).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (2).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (3).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (4).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (5).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (6).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (7).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (8).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\apple  (9).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\banana (1).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\banana (2).jpg\n",
+      "\n",
+      "D:\\fruit\\splite_data\\image\\banana (3).jpg\n",
+      "\n",
+	}
